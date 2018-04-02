@@ -1,0 +1,20 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ 
+<beans>
+
+	<bean id="object" class="packageauto.Category" autowire="byName">
+		<property name="catName" value="Regular-Employee"></property>
+	</bean>
+	
+	<bean id="emp" class ="packageauto.Employee">
+		<property name="empId" value="200"/>
+		<property name="empName" value="Om"></property>
+	</bean>
+	
+	<bean id="emp1" class ="packageauto.Employee">
+		<property name="empId" value="200"/>
+		<property name="empName" value="OmSai"></property>
+	</bean>
+	
+	</beans>
