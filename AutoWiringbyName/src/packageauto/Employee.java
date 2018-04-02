@@ -3,7 +3,7 @@ package packageauto;
 public class Employee {
 
 		
-			private int empId;
+			private long empId;
 			private String empName;
 			
 			
